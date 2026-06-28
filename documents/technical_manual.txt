@@ -1,0 +1,28 @@
+ABC Technologies - Technical Manual
+===================================
+
+1. System Requirements & Configuration
+--------------------------------------
+- Operating Systems: Windows 10/11, macOS Big Sur (11.0) or later, and Linux (Ubuntu 20.04+, Debian 11+).
+- Run-time: Node.js version 18.x or 20.x, Python 3.10 or 3.11.
+- Memory: Minimum 4 GB RAM (8 GB recommended for optimal performance).
+- Port Settings: The default port for the application web interface is 3000. This can be configured in the `.env` file by setting the `PORT` variable (e.g., `PORT=8080`).
+- Database Connection: The application requires a PostgreSQL or SQLite database. The connection string must be configured in the `.env` file under the key `DATABASE_URL` (e.g., `DATABASE_URL=postgresql://user:password@localhost:5432/mydb`).
+
+2. Troubleshooting Application Crashes
+--------------------------------------
+- Issue: Application crashes or freezes during file uploads.
+- Diagnostic Steps:
+  1. Check File Size: The maximum file size limit for uploads across all plans is 50 MB. Uploading a file larger than 50 MB will cause a server-side buffer overflow and trigger an application crash.
+  2. Check File Format: The system only supports the following extensions: `.csv`, `.xlsx`, `.pdf`, `.json`, `.jpg`, and `.png`. Uploading other formats may crash the parsing parser.
+  3. Network Constraints: Ensure your network firewall does not block WebSocket connections, which are used to stream file upload progress in real-time.
+- Resolutions:
+  * Compress the file or split it into smaller chunks if it exceeds 50 MB.
+  * Convert unsupported formats into standard `.csv` or `.pdf` formats.
+  * Clear the application cache: In the web browser, clear local storage and cookies for the application domain, then reload.
+  * If using custom reverse proxies (e.g., Nginx), ensure `client_max_body_size` is configured to `50M` and WebSocket upgrade headers are enabled.
+
+3. Login Issues and Configuration
+---------------------------------
+- Session Expired / Invalid Token: If users get recurring "session expired" or "invalid token" errors, ensure the server system clock is synced with NTP. Out-of-sync system clocks cause JWT token verification to fail immediately.
+- Port Collisions: If the application fails to start with "EADDRINUSE: port 3000", change the port in `.env` to a different number (e.g., `PORT=3001`) and restart the service.

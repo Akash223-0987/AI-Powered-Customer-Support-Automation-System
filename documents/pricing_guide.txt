@@ -1,0 +1,42 @@
+ABC Technologies - Pricing Guide
+===============================
+
+1. Subscription Plans
+----------------------
+ABC Technologies offers three subscription plans tailored to different business sizes:
+
+* Basic Plan
+  - Price: $29 per user/month (billed monthly) or $299 per user/year (billed annually - saves ~15%).
+  - Target: Small teams and startups.
+  - Features:
+    * Access to core business management modules (contacts, task tracking, simple invoicing).
+    * 10 GB secure cloud storage.
+    * Support: Standard email support (response time within 24-48 hours).
+    * Limit: Maximum of 5 users per account.
+
+* Professional Plan (Most Popular)
+  - Price: $79 per user/month (billed monthly) or $799 per user/year (billed annually - saves ~15%).
+  - Target: Growing businesses and mid-sized enterprises.
+  - Features:
+    * All Basic Plan features.
+    * Advanced CRM integrations, project management boards, automated invoicing, and expenses.
+    * 100 GB secure cloud storage.
+    * Support: Priority email and live chat support (response time within 4-12 hours).
+    * Limit: Maximum of 50 users per account.
+
+* Enterprise Plan
+  - Price: Custom pricing (starts at $199 per user/month, billed annually). Contact Sales for a custom quote.
+  - Target: Large organizations requiring advanced security, custom integrations, and dedicated support.
+  - Features:
+    * All Professional Plan features.
+    * Custom database integrations, single sign-on (SSO), advanced audit logs, and API access.
+    * Unlimited cloud storage.
+    * Support: 24/7 dedicated support (response time within 1 hour) with a dedicated account manager.
+    * SLA: 99.9% uptime guarantee with credit eligibility.
+    * Limit: Unlimited users.
+
+2. Billing and Payment Methods
+-----------------------------
+- Accepted Payment Methods: We accept major Credit Cards (Visa, MasterCard, American Express) and PayPal for all plans.
+- Wire Transfers: Direct bank wire transfers are available for Enterprise Plan annual subscriptions only.
+- Invoicing: Invoices are automatically generated and emailed on the first day of each billing cycle (monthly or annually). Invoices can also be downloaded from the User Dashboard.

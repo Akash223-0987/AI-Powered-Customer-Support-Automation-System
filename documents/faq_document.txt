@@ -1,0 +1,26 @@
+ABC Technologies - Frequently Asked Questions (FAQ)
+===================================================
+
+Q1: How do I reset my account password?
+A: You can reset your password by clicking on the "Forgot Password" link on the login page (https://app.abctech.com/login). Enter your registered email address, and we will send you a password reset link. This link is valid for 1 hour. If you do not receive the email within 5 minutes, please check your Spam/Junk folder.
+
+Q2: How can I update my profile information?
+A: Once logged in, click on your avatar in the top-right corner, select "Settings", and navigate to the "Profile" tab. Here you can update your name, contact phone number, job title, and upload a profile picture. Click "Save Changes" to apply.
+
+Q3: How do I activate or deactivate my account?
+A: 
+- Activation: Accounts are automatically activated after verifying your email address via the link sent upon registration.
+- Deactivation: If you wish to temporarily deactivate your user account, go to "Settings > Account Security" and click "Deactivate Account". While deactivated, your data is preserved, but you cannot log in.
+- Team Members: Account administrators can activate or deactivate team member accounts at any time from the "Team Management" tab.
+
+Q4: What payment methods do you accept?
+A: We accept Visa, MasterCard, American Express, and PayPal. For Enterprise plans, we also support bank wire transfers.
+
+Q5: Can I cancel my subscription anytime?
+A: Yes, you can cancel your subscription from the billing dashboard. Your plan will remain active until the end of your current billing period, and no further charges will apply.
+
+Q6: Where can I find my invoices?
+A: Invoices are sent to the billing email on file. You can also view and download all past invoices by going to "Settings > Billing > Invoice History".
+
+Q7: What is the maximum size of files I can upload?
+A: The maximum file size limit is 50 MB per file. Uploading files larger than this will fail and may cause the application browser window or server processing task to crash.

@@ -1,0 +1,40 @@
+ABC Technologies - Company Policy Document
+=========================================
+
+1. Refund Policy
+----------------
+- Standard Policy: All refund requests are subject to verification. Refunds are only processed within 14 days of the initial purchase date.
+- Subscription Tiers: 
+  * Annual subscriptions are eligible for a partial refund if cancelled and requested within the first 30 days of the subscription period. The refund amount will be calculated by deducting the standard monthly rate for the active month(s).
+  * Monthly subscriptions are strictly non-refundable. Users can cancel to prevent future renewals, but no refunds will be issued for partial months.
+- Processing: Once approved by a supervisor, refunds take 5-10 business days to reflect in the customer's original payment method.
+
+2. Subscription Cancellation Policy
+----------------------------------
+- Process: Customers can cancel their subscription at any time via the User Dashboard under "Billing > Subscription".
+- Access Period: Upon cancellation, the subscription will remain active until the end of the current billing cycle. No further recurring charges will be made.
+- Re-activation: Customers can re-activate their cancelled subscription before the current billing cycle ends without losing their configuration or historical data.
+
+3. Account Closure Policy
+-------------------------
+- Process: Customers requesting account closure must do so through the Account Settings or by contacting Account Support.
+- Data Retention: Account closure is a permanent action. All customer data, configurations, and historical logs will be permanently deleted from our servers within 30 days of closure. This action is irreversible.
+- Requirements: Customers must download all their invoice history, reports, and data before initiating account closure.
+
+4. Compensation Policy
+----------------------
+- Monetary Compensation: ABC Technologies does not provide direct cash or monetary compensation for service outages, bugs, or data loss.
+- Service Level Agreement (SLA) Credits: 
+  * We guarantee a 99.9% monthly uptime for all cloud services.
+  * If services are down for more than 4 consecutive hours in a single calendar month, customers may request account credits.
+  * Eligible customers will receive a credit equal to 5% of their monthly subscription fee, up to a maximum of 50% per billing cycle. These credits are applied to the next billing invoice and cannot be exchanged for cash.
+
+5. Escalation Policy
+--------------------
+- Internal Routing: If a support executive cannot resolve an issue, or if a customer specifically requests management intervention, the ticket must be routed to the Human Supervisor.
+- High-Risk Requests: The following request types are classified as high-risk and MUST be escalated to a human supervisor for approval before any response or action is executed:
+  1. Refund requests (excluding standard questions about refund rules)
+  2. Subscription cancellations (direct cancellation requests from customer support chats)
+  3. Account closure requests
+  4. Compensation requests
+  5. Requests for direct escalation to management

@@ -1,0 +1,16 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python compiled cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# SQLite database
+memory.db
+
+# OS files
+.DS_Store
+Thumbs.db
