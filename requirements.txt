@@ -1,0 +1,6 @@
+langgraph
+langgraph-checkpoint-sqlite
+langchain-ollama
+rank_bm25
+reportlab
+pillow
